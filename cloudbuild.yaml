@@ -6,4 +6,4 @@ steps:
     - >
       gcloud beta deploy releases create rel-$(date +%y%m%d-%s)
       --delivery-pipeline=my-demo-app-1 
-      --region=us-central1 --annotations=commitId:$REVISION_ID
+      --region=us-central1
